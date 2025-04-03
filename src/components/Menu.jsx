@@ -1,6 +1,6 @@
 function Menu(){
     return(
-        <ul>
+        <ul className = "flex-menu">
             <li>character</li>
             <li>comics</li>
             <li>movies</li>
