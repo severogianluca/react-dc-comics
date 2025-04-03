@@ -37,6 +37,8 @@ figure{
   background-color: #0282f9;
   padding-left: 150px;
   padding-right: 150px;
+  position: relative;
+  z-index: 1;
 }
 .bg-blue li{
   display: flex;
@@ -82,17 +84,42 @@ footer ul{
 footer a{
   text-decoration: none;
   color: #ffffff;
+  font-size: small;
+  font-weight: lighter;
   opacity: 0.5;
 }
 
 .bg-logo{
   position: absolute;
-  top: -100px;
+  top: -90px;
   right: 100px;
   width: 500px;
 }
 
+.footer-bottom{
+  position: relative;
+  background-color: #303030;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 150px;
+}
 
+.footer-h3{
+  color: #0282f9;
+}
 
+.flex-icon{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
 
-
+.btn{
+  font-size: large;
+  border: 2px solid #0282f9;
+  padding: 15px;
+  background-color: transparent;
+  color: #ffffff;
+}
