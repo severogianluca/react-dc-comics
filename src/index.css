@@ -95,3 +95,41 @@ ul {
   gap: 20px;
   
 }
+
+/* MAIN */
+
+.bg-black{
+  background-color: black;
+}
+
+.bg-blue{
+  background-color: #0282f9;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.bg-blue li{
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  justify-content: space-around;
+  gap: 5px;
+
+}
+.bg-blue li img{
+  width: 40px;
+  height: auto;
+}
+
+.bg-blue li p{
+  color: #ffffff;
+}
+
+h2 {
+  color: #ffffff;
+  padding: 50px;
+  padding-left: 220px;
+}
+
+
+
