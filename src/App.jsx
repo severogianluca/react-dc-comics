@@ -7,7 +7,19 @@ function App() {
 
   return (
     <>
-      <Header/>
+
+  <header>
+    <Header/>
+  </header>
+
+  <main>
+
+  </main>
+
+  <footer>
+  
+  </footer>
+      
     </>
   )
 }

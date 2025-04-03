@@ -1,4 +1,5 @@
 import Logo from "./Logo.jsx"
+import Menu from "./Menu.jsx"
 
 function Header() {
 
@@ -6,6 +7,7 @@ function Header() {
         <>
             <figure>
                 <Logo/>
+                <Menu/>
             </figure>  
         </>
     )
