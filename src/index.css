@@ -27,6 +27,11 @@ figure{
   
 }
 
+.flex-menu a{
+  text-decoration: none;
+  color: black;
+}
+
 /* MAIN */
 main{
   color: #ffffff
@@ -64,7 +69,8 @@ main{
 }
 
 .new-card p{
-  font-size:medium;
+  font-size:small;
+  text-align: center;
 }
 
 
