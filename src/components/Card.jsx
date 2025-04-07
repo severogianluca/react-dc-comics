@@ -4,14 +4,15 @@ function Card(props){
     
     return(
         <>
-
+            <div className="card-container">
             {comics.map(element =>
-                <div key={element.id}>
+                <div key={element.id} className="new-card">
                     <img src={element.thumb} alt={element.title} />
-                    <h4>{element.series}</h4>
+                    <p>{element.series}</p>
                     
                 </div>
             )}
+            </div>
         </>
     )
 }

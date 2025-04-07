@@ -39,7 +39,36 @@ main{
 
 .bg-black{
   background-color: black;
+  padding-left: 50px;
+
 }
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 1rem; 
+  justify-content: center; 
+}
+
+.new-card{
+  text-align: center;
+  width: calc(100%/7);
+}
+
+.new-card img{
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  object-position: top;
+  
+}
+
+.new-card p{
+  font-size:medium;
+}
+
+
+
 
 .bg-blue{
   background-color: #0282f9;
