@@ -48,6 +48,20 @@ main{
 
 }
 
+.btn-load-more{
+  display: block;
+  background-color:#0282f9;
+  color: #ffffff;
+  font-size: medium;
+  font-weight:100;
+  text-align: center;
+  padding: 9px 30px;
+  border: none;
+  margin: 50px auto 0 auto;
+  cursor: pointer;
+
+}
+
 .card-container {
   display: flex;
   flex-wrap: wrap; 
