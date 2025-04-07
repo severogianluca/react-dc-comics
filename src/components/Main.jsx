@@ -1,8 +1,15 @@
 import BgBlue from "./BgBlue"
+import Card from "./card.jsx"
+
+import comics from "../data/comics.js"
+
 function Main(){
     return(
         <>
-            <h2 className="bg-black">--&gt; Content goes here &lt;--</h2>
+            <div className="bg-jumbo"></div>
+            <h2 className="bg-black">
+                <Card Comics={comics}/>
+            </h2>
             <BgBlue/>
 
         </>

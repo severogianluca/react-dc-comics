@@ -28,6 +28,14 @@ figure{
 }
 
 /* MAIN */
+main{
+  color: #ffffff
+}
+
+.bg-jumbo{
+  height: 400px;
+  background-image: url(./assets/img/jumbotron.jpg);
+}
 
 .bg-black{
   background-color: black;
