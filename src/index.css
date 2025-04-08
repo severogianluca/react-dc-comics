@@ -37,14 +37,28 @@ main{
   color: #ffffff
 }
 
+.current-series{
+  background-color: #0282f9;
+  padding: 9px 30px;
+  text-transform: uppercase;
+  position: absolute;
+  top: -20px;
+  left: 150px;
+}
+
 .bg-jumbo{
   height: 400px;
   background-image: url(./assets/img/jumbotron.jpg);
+  background-size: cover;
 }
 
 .bg-black{
   background-color: black;
   padding-left: 50px;
+  position: relative;
+  color: #ffffff;
+  padding: 50px;
+  
 
 }
 
@@ -85,6 +99,7 @@ main{
 .new-card p{
   font-size:small;
   text-align: center;
+  text-transform: uppercase;
 }
 
 
@@ -115,11 +130,7 @@ main{
   color: #ffffff;
 }
 
-h2 {
-  color: #ffffff;
-  padding: 50px;
-  padding-left: 220px;
-}
+
 
 /* FOOTER */
 .bg-img{

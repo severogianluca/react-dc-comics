@@ -7,10 +7,11 @@ function Main(){
     return(
         <>
             <div className="bg-jumbo"></div>
-            <h2 className="bg-black">
+            <div className="bg-black">
+            <span class="current-series">Current Series</span>
                 <Card Comics={comics}/>
                 <button className="btn-load-more">LOAD MORE</button>
-            </h2>
+            </div>
             <BgBlue/>
 
         </>
